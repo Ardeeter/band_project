@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;400&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/8598dda2aa.js" crossorigin="anonymous"></script>
+
     
   </head>
   <body>
@@ -36,7 +37,7 @@
             </div>
 
             <div class="d-none d-md-block position-absolute top z10 h-100 w-100">
-                <img class="w-100" src="/images/logo/concert.jpg" alt="">
+                <img class="w-100" src="/images/logo/concert2.jpg" alt="">
             </div>
         </div>
 
@@ -72,38 +73,38 @@
           </nav>
 
           <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="maincontent">
-    
-                        <% albums.forEach(album => { %>
-                            <article class="article card m-5 p-3">
-                                <div class="card-body row">
-                                        <a href="/<%= album.title %> "><h1 class="article-title header-font"><%= album.title %></h1></a>
-                                    <p><%= album.summary %> </p>
-                                    <div class="row">
-                                        <img src="/images/albums/<%= album.artwork %> " class="col-6 w-50" alt="">
-                                        <ul class="col-6">
-                                            <% album.tracklist.forEach(song => { %>
-                                             <li><%= song %> </li>
-                                            <% }) %>
-                                        </ul>
-                                    </div>
-                                    <div class="row d-flex">
-                                        <a href="<%= album.albumAM %> " class="icon"><i class="fab fa-itunes"></i></a>
-                                        <a href="<%= album.albumSM %> " class="icon"><i class="fab fa-spotify"></i></a>
-                                    </div>
-                                </div>
-                            </article><!-- article -->
-                        <% }) %>
-    
+            <div class="row justify-content-around">
+                <aside class="card col-sm-12 my-5 mx-4">
+                    <div class="maincontent chat card-body">
+                        <div class="border p-3 m-3">
+                            <div class="d-flex justify-content-center">
+                                <h2 class="article-title">Chat with Fans</h2>
+                            </div>
+                            <div class="chat-messages">
+        
+                            </div>
+                        </div>
+
+                        <form class="chat-form row m-3">
+                            <div class="form-group col-3">
+                                <label for="chat-form-name">Name</label>
+                                <input type="text" class="form-control" id="chat-form-name" placeholder="Enter your name">
+                            </div>
+        
+                            <div class="form-group col-7">
+                                <label for="chat-form-message">Message</label>
+                                <textarea type="text" placeholder="Enter your message, then hit the send" class="form-control"
+                                    id="chat-form-message" rows="1"></textarea>
+                            </div>
+                            <div class="col-2 d-flex align-items-end mb-3">
+                                <button type="submit" class="btn btn-default pull-right cp-bg-blue">Send</button>
+                            </div>
+                        </form>
+
                     </div>
-
-                </div><!-- primary -->
-
+                </aside><!-- secondary -->
             </div>
         </div><!-- container -->
-
         
     </div>
 
@@ -111,8 +112,10 @@
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="/js/chat.js"></script>
   </body>
 </html>

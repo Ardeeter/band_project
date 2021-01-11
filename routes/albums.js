@@ -5,15 +5,15 @@ let dataFile = require('../data/data.json');
 let albums = dataFile.albums;
 let songs = [];
 
-albums.forEach(album => {
-    songs = album.tracklist
-})
-
 router.get('/albums', (req, res) => {
 
+    // albums.forEach(album => {
+    //     songs = album.tracklist
+    // })
+
     res.render("albums", {
-        albums: albums,
-        songs: songs
+        albums: albums
+        // songs: songs
     })
     
 })
@@ -21,16 +21,18 @@ router.get('/albums', (req, res) => {
 router.get('/albums/:albumid', (req, res) => {
 
     let album = [];
+    let tracklist = [];
     
     albums.forEach(albumObj => {
         if (albumObj.title === req.params.albumid){
             album.push(albumObj)
+            tracklist.push(albumObj.tracklist)
         }
     })
 
     res.render("albums", {
         albums: album,
-        songs: songs
+        songs: tracklist
     })
 
 

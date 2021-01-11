@@ -2,7 +2,7 @@
     "albums": [{
         "title": "True",
         "year": "2013",
-        "summary": "    True is the debut studio album, released on 13 September 2013 by PRMD Music and Island Records. Avicii said that sonically, the album would move away from his earlier house music sound on previous records by incorporating elements of other genres such as country music. Avicii stated on multiple occasions that the material on the album will not be a replication of his earlier hit singles but rather an experimental and more synthetic record. In his own words, he wanted to bring \"disruption\" to the electronic dance music scene, which he described as \"half stuck\". ",
+        "summary": "True is the debut studio album, released on 13 September 2013 by PRMD Music and Island Records. Avicii said that sonically, the album would move away from his earlier house music sound on previous records by incorporating elements of other genres such as country music. Avicii stated on multiple occasions that the material on the album will not be a replication of his earlier hit singles but rather an experimental and more synthetic record. In his own words, he wanted to bring \"disruption\" to the electronic dance music scene, which he described as \"half stuck\". ",
         "artwork": "true.jpg",
         "tracklist": ["Wake Me Up", "You Make Me", "Hey Brother", "Addicted to You", "Dear Boy", "Liar Liar", "Shame on Me", "Lay Me Down", "Hope There's Someone", "Heart Upon My Sleeve"],
         "albumAM": "https://music.apple.com/us/album/true-avicii-by-avicii/1440824514",
@@ -11,16 +11,16 @@
     {
         "title": "Stories",
         "year": "2015",
-        "summary": "    Stories is the second studio album by Avicii, released on 2 October 2015 by PRMD Music and Island Records. It is his last studio album to be released in his lifetime. In July 2014, Avicii told Rolling Stone that he had worked on 70 songs for his next album and would include collaborations with Jon Bon Jovi, Billie Joe Armstrong, Chris Martin, Wyclef Jean, Serj Tankian and Matisyahu. Describing the album, Avicii said: \"It's going to be a lot more song-oriented.\"",
+        "summary": "Stories is the second studio album by Avicii, released on 2 October 2015 by PRMD Music and Island Records. It is his last studio album to be released in his lifetime. In July 2014, Avicii told Rolling Stone that he had worked on 70 songs for his next album and would include collaborations with Jon Bon Jovi, Billie Joe Armstrong, Chris Martin, Wyclef Jean, Serj Tankian and Matisyahu. Describing the album, Avicii said: \"It's going to be a lot more song-oriented.\"",
         "artwork": "stories.jpg",
-        "tracklist": [". Waiting for Love", "Talk To Myself", "Touch Me", "Ten More Days", "For a Better Day", "Broken Arrows", "True Believer", "City Lights", "Pure Grinding", "Sunset Jesus", "Can't Catch Me", "Somewhere in Stockholm", "Trouble", "Gonna Love Ya"],
+        "tracklist": ["Waiting for Love", "Talk To Myself", "Touch Me", "Ten More Days", "For a Better Day", "Broken Arrows", "True Believer", "City Lights", "Pure Grinding", "Sunset Jesus", "Can't Catch Me", "Somewhere in Stockholm", "Trouble", "Gonna Love Ya"],
         "albumAM": "https://music.apple.com/us/album/stories/1440834059",
         "albumSM": "https://open.spotify.com/album/7dqftJ3kas6D0VAdmt3k3V?si=2ti7UIkESpSaaByjPpw6fQ"
     },
     {
         "title": "Tim",
         "year": "2019",
-        "summary": "    Tim is the posthumous third studio album by Avicii, released on 6 June 2019. It is his first album release following his death on 20 April 2018. Following Avicii's death, a representative said the following month that there were \"no plans\" to release any new material in the immediate future. In April 2019, it was announced that collaborators were enlisted to help finish the work on the album. A team of writers and producers made an album described as containing elements of \"psychedelia, Arabian music, sounds of the Caribbean and more\".",
+        "summary": "Tim is the posthumous third studio album by Avicii, released on 6 June 2019. It is his first album release following his death on 20 April 2018. Following Avicii's death, a representative said the following month that there were \"no plans\" to release any new material in the immediate future. In April 2019, it was announced that collaborators were enlisted to help finish the work on the album. A team of writers and producers made an album described as containing elements of \"psychedelia, Arabian music, sounds of the Caribbean and more\".",
         "artwork": "tim2.jpg",
         "tracklist": ["Peace of Mind", "Heaven", "SOS", "Tough Love", "Bad Reputation", "Ain't a Thing", "Hold the Line", "Freak", "Excuse Me Mr. Sir", "Heart Upon My Sleeve", "Never Leave Me", "Fades Away"],
         "albumAM": "https://music.apple.com/us/album/tim/1462628887",

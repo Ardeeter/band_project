@@ -54,6 +54,12 @@
                     <a class="dropdown-item" href="/albums">All Albums</a>
                   </div>
                 </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-white h4 header-font" href="/feedback">Feedback <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-white h4 header-font" href="/chat">Chat <span class="sr-only">(current)</span></a>
+                </li>
               </ul>
             </div>
           </nav>
@@ -97,11 +103,11 @@
                 </div><!-- primary -->
                 <aside class="col-sm-4">
                     <div class="row mt-5">
-                        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcXBWjiVEM8R" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        <iframe style="border-radius: 10px;" src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcXBWjiVEM8R" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
                     <div class="row">
                         <% gridPictures.forEach(picture => { %>
-                         <img src="/images/grid/<%= picture %> " class="mt-5" alt="">
+                         <img src="/images/grid/<%= picture %> " class="mt-5 picture" alt="">
                         <% }) %>
     
     

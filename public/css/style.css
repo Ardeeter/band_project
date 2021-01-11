@@ -94,6 +94,10 @@ p , li{
     width: 33.33%;
     border-radius: 10px;
   }
+
+  .picture {
+    border-radius: 10px;
+  }
   
   @media (min-width: 500px) and (max-width: 768px) {
     .pixgrid img {
@@ -116,6 +120,20 @@ p , li{
     color: #02A9EA
   }
 
+  .chat-name {
+    font-size: 18px;
+    color: #02A9EA;
+    font-weight: bold
+  }
+
+  .chat-message {
+    font-size: 15px;
+  }
+
+  label {
+    font-size: 20px;
+  }
+
 
 
 /* Background Colors */
@@ -130,6 +148,10 @@ p , li{
 
 .cp-bg-white{
     background-color: #FFFFFF;
+}
+
+.cp-bg-blue {
+    background-color: #02A9EA;
 }
 
 

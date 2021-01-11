@@ -23,7 +23,7 @@ router.get('/albums/:albumid', (req, res) => {
     let album = [];
     
     albums.forEach(albumObj => {
-        if (albumObj.title === req.params.speakerid){
+        if (albumObj.title === req.params.albumid){
             album.push(albumObj)
         }
     })

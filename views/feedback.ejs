@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Avicii</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;400&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/8598dda2aa.js" crossorigin="anonymous"></script>
+
+    
+  </head>
+  <body>
+
+    <div class="container-fluid p-0 cp-bg-grey">
+        <div class="header position-relative top">
+
+            <div class="position-absolute top h-100 w-100 cp-text-white z20 d-flex justify-content-center align-items-center flex-column">
+                <div class="d-none d-md-block headline">
+                    A V I C I I 
+                </div>
+            </div>
+
+            <div class="position-absolute cp-bg-black opacity top h-100 w-100 z15">
+                <!-- opacity -->
+            </div>
+
+            <div class="d-none d-md-block position-absolute top z10 h-100 w-100">
+                <img class="w-100" src="/images/logo/edc1.jpg" alt="">
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light d-flex">
+            <a class="navbar-brand h-100" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link text-white h4 header-font" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white h4 header-font" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Albums
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="/albums">All Albums</a>
+                    <a class="dropdown-item" href="/albums/True">True</a>
+                    <a class="dropdown-item" href="/albums/Stories">Stories</a>
+                    <a class="dropdown-item" href="/albums/Tim">Tim</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-white h4 header-font" href="/feedback">Feedback <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-white h4 header-font" href="/chat">Chat <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-sm-4 card my-5 mx-1">
+                  <div class="card-body">
+                    <h1 class="feedback-form-title">Send Us Feedback</h1>
+                    <form class="feedback-form">
+                        <div class="form-group">
+                            <label for="feedback-form-name">Name</label>
+                            <input type="text" class="form-control" id="feedback-form-name" placeholder="Enter your name">
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="feedback-form-title">Title</label>
+                            <input type="text" class="form-control" id="feedback-form-title"
+                                placeholder="Title of your feedback">
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="feedback-form-message">Message</label>
+                            <textarea type="text" placeholder="Enter your message, then hit the submit" class="form-control"
+                                id="feedback-form-message" rows="6"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default pull-right cp-bg-blue">Submit</button>
+                    </form>
+                  </div>
+                </div><!-- primary -->
+                <aside class="col-sm-7 card my-5 mx-1">
+                    <div class="maincontent feedback card-body">
+                        <h2 class="article-title">Recent Feedback</h2>
+                        <div class="feedback-messages">
+    
+                        </div>
+                    </div>
+                </aside><!-- secondary -->
+            </div>
+        </div><!-- container -->
+        
+    </div>
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="/js/feedback.js"></script>
+  </body>
+</html>

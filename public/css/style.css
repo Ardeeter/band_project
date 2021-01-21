@@ -134,6 +134,22 @@ p , li{
     font-size: 20px;
   }
 
+  .feedback-message {
+    font-size: 15px;
+  }
+
+  .feedback-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: black
+  }
+
+  .feedback-title {
+    font-size: 20px;
+    color: #02A9EA;
+    font-weight: bold;
+  }
+
 
 
 /* Background Colors */
